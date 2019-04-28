@@ -1,0 +1,362 @@
+[{
+    "author": "Louise Hay",
+    "title": "You can create an exceptional life",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "yes",
+    "days": 18,
+    "year": "2015",
+    "place": "online",
+    "spend": 18
+    
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "I can do it",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "yes",
+    "days": 8,
+    "year": "2014",
+    "place": "store",
+    "spend": 22
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "You can heal your life",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "yes",
+    "days": 13,
+    "year": "2014",
+    "place": "store",
+    "spend": 16
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "Everyday super food",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 10,
+    "year": "2014",
+    "place": "online",
+    "spend": 30
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "Jamie's comfort food",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 30,
+    "year": "2014",
+    "place": "online",
+    "spend": 32
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "Jamie's 30-minute meals",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 30,
+    "year": "2016",
+    "place": "online",
+    "spend": 38
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "Jamie's 15-minute meals",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 10,
+    "year": "2016",
+    "place": "online",
+    "spend": 36
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "Save with Jamie",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 30,
+    "year": "2016",
+    "place": "online",
+    "spend": 33
+},
+
+{   
+    "author": "Christine Manfield",
+    "title": "Stir",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 8,
+    "year": "2014",
+    "place": "online",
+    "spend": 24
+},
+
+{   
+    "author": "Christine Manfield",
+    "title": "Tasting India",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 36,
+    "year": "2014",
+    "place": "online",
+    "spend": 26
+},
+
+{   
+    "author": "Christine Manfield",
+    "title": "Spice",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 48,
+    "year": "2014",
+    "place": "online",
+    "spend": 32
+},
+
+{   
+    "author": "Christine Manfield",
+    "title": "Dessert Divas",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 78,
+    "year": "2014",
+    "place": "online",
+    "spend": 30
+},
+
+{   
+    "author": "Kati Marton",
+    "title": "Paris: a love story",
+    "type": "love story",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2017",
+    "place": "online",
+    "spend": 28
+},
+
+{   
+    "author": "Kati Marton",
+    "title": "True Believer",
+    "type": "biography",
+    "language": "english",
+    "read": "yes",
+    "days": 9,
+    "year": "2017",
+    "place": "online",
+    "spend": 23
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Nigdy w zyciu",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 3,
+    "year": "2014",
+    "place": "online",
+    "spend": 16
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Serce na temblaku",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 16,
+    "year": "2014",
+    "place": "online",
+    "spend": 19
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Krysztalowy aniol",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 10,
+    "year": "2014",
+    "place": "online",
+    "spend": 16
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Zagubione niebo",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 13,
+    "year": "2014",
+    "place": "online",
+    "spend": 17
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Troche wiekszy poniedzialek",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 10,
+    "year": "2014",
+    "place": "online",
+    "spend": 21
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Zielone drzwi",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 21,
+    "year": "2015",
+    "place": "online",
+    "spend": 16
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Osobowosc cmy",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 28,
+    "year": "2015",
+    "place": "store",
+    "spend": 18
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Trzepot skrzydel",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 20,
+    "year": "2014",
+    "place": "online",
+    "spend": 20
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Houston, mamy problem",
+    "type": "love story",
+    "language": "polish",
+    "read": "yes",
+    "days": 17,
+    "year": "2015",
+    "place": "online",
+    "spend": 17
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Upowaznienie do szczescia",
+    "type": "love story",
+    "language": "polish",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "online",
+    "spend": 15
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Podanie o milosc",
+    "type": "love story",
+    "language": "polish",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "store",
+    "spend": 28
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Przegrysc dzdzownice",
+    "type": "love story",
+    "language": "polish",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "store",
+    "spend": 19
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "Ja wam pokaze!",
+    "type": "love story",
+    "language": "polish",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "store",
+    "spend": 25
+},
+
+{   
+    "author": "Katarzyna Grochola",
+    "title": "A nie mowilam!",
+    "type": "love story",
+    "language": "polish",
+    "read": "no",
+    "days": null,
+    "year": "2014",
+    "place": "online",
+    "spend": 14
+},
+
+{   
+    "author": "J.K.Rowling",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "type": "fantasy",
+    "language": "english",
+    "read": "yes",
+    "days": 12,
+    "year": "2014",
+    "place": "store",
+    "spend": 22
+},
+
+{   
+    "author": "J.K.Rowling",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "type": "fantasy",
+    "language": "english",
+    "read": "yes",
+    "days": 22,
+    "year": "2014",
+    "place": "online",
+    "spend": 17
+    
+}
+]
