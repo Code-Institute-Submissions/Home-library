@@ -4,10 +4,9 @@
     
 function makeGraphs(error, booksData) {
    var ndx = crossfilter(booksData);
-   
+   show_spend(ndx);
    show_readed(ndx);
    show_year(ndx);
-   show_spend(ndx);
    show_type(ndx);
    show_languages(ndx);
    show_author(ndx);
@@ -21,9 +20,9 @@ function show_author(ndx){
     var group = dim.group();
     
     dc.barChart("#author-balance")
-        .width(400)
-        .height(300)
-        .margins({top:10, right:50, bottom:30, left: 50})
+        .width(1300)
+        .height(600)
+        .margins({top:10, right:70, bottom:30, left: 70})
         .dimension(dim)
         .group(group)
         .transitionDuration(500)
@@ -81,7 +80,7 @@ function show_type(ndx){
     
     dc.pieChart("#type-balance")
         .height(350)
-        .radius(90)
+        .radius(100)
         .transitionDuration(500)
         .dimension(dim)
         .group(group)
@@ -109,8 +108,8 @@ function show_spend(ndx){
     var stackedChart = dc.barChart("#spend-balance");
     
     stackedChart
-        .width(500)
-        .height(500)
+        .width(400)
+        .height(300)
         .dimension(place_dim)
         .group(spendByPlaceLanguagePolish, "Polish")
         .stack(spendByPlaceLanguageEnglish, "English")

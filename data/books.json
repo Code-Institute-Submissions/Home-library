@@ -16,8 +16,8 @@
     "title": "I can do it",
     "type": "mind & spirit",
     "language": "english",
-    "read": "yes",
-    "days": 8,
+    "read": "no",
+    "days": null,
     "year": "2014",
     "place": "store",
     "spend": 22
@@ -33,6 +33,90 @@
     "year": "2014",
     "place": "store",
     "spend": 16
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "Mirror work",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "yes",
+    "days": 60,
+    "year": "2014",
+    "place": "online",
+    "spend": 23
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "Power thoughts",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "yes",
+    "days": 30,
+    "year": "2017",
+    "place": "store",
+    "spend": 22
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "Gratitude",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2017",
+    "place": "store",
+    "spend": 14
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "Great health",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2017",
+    "place": "online",
+    "spend": 19
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "Inner wisdom",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "yes",
+    "days": 10,
+    "year": "2017",
+    "place": "online",
+    "spend": 23
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "Colors & numbers",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "yes",
+    "days": 20,
+    "year": "2017",
+    "place": "online",
+    "spend": 20
+},
+
+{   
+    "author": "Louise Hay",
+    "title": "Wisdom cards",
+    "type": "mind & spirit",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2017",
+    "place": "online",
+    "spend": 27
 },
 
 {   
@@ -64,8 +148,8 @@
     "title": "Jamie's 30-minute meals",
     "type": "cook book",
     "language": "english",
-    "read": "yes",
-    "days": 30,
+    "read": "no",
+    "days": null,
     "year": "2016",
     "place": "online",
     "spend": 38
@@ -96,12 +180,60 @@
 },
 
 {   
+    "author": "Jamie Oliver",
+    "title": "Jamie's Italy",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 55,
+    "year": "2017",
+    "place": "online",
+    "spend": 31
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "Jamie's Italy",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 55,
+    "year": "2017",
+    "place": "store",
+    "spend": 26
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "5 igredients",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 65,
+    "year": "2017",
+    "place": "online",
+    "spend": 35
+},
+
+{   
+    "author": "Jamie Oliver",
+    "title": "Jamie's kitchen",
+    "type": "cook book",
+    "language": "english",
+    "read": "yes",
+    "days": 25,
+    "year": "2017",
+    "place": "online",
+    "spend": 30
+},
+
+{   
     "author": "Christine Manfield",
     "title": "Stir",
     "type": "cook book",
     "language": "english",
-    "read": "yes",
-    "days": 8,
+    "read": "no",
+    "days": null,
     "year": "2014",
     "place": "online",
     "spend": 24
@@ -112,8 +244,8 @@
     "title": "Tasting India",
     "type": "cook book",
     "language": "english",
-    "read": "yes",
-    "days": 36,
+    "read": "no",
+    "days": null,
     "year": "2014",
     "place": "online",
     "spend": 26
@@ -148,8 +280,8 @@
     "title": "Paris: a love story",
     "type": "love story",
     "language": "english",
-    "read": "yes",
-    "days": 4,
+    "read": "no",
+    "days": null,
     "year": "2017",
     "place": "online",
     "spend": 28
@@ -175,7 +307,7 @@
     "read": "yes",
     "days": 3,
     "year": "2014",
-    "place": "online",
+    "place": "store",
     "spend": 16
 },
 
@@ -200,7 +332,7 @@
     "days": 10,
     "year": "2014",
     "place": "online",
-    "spend": 16
+    "spend": 20
 },
 
 {   
@@ -211,7 +343,7 @@
     "read": "yes",
     "days": 13,
     "year": "2014",
-    "place": "online",
+    "place": "store",
     "spend": 17
 },
 
@@ -236,7 +368,7 @@
     "days": 21,
     "year": "2015",
     "place": "online",
-    "spend": 16
+    "spend": 27
 },
 
 {   
@@ -260,7 +392,7 @@
     "days": 20,
     "year": "2014",
     "place": "online",
-    "spend": 20
+    "spend": 24
 },
 
 {   
@@ -272,7 +404,7 @@
     "days": 17,
     "year": "2015",
     "place": "online",
-    "spend": 17
+    "spend": 18
 },
 
 {   
@@ -284,7 +416,7 @@
     "days": null,
     "year": "2015",
     "place": "online",
-    "spend": 15
+    "spend": 18
 },
 
 {   
@@ -332,7 +464,743 @@
     "days": null,
     "year": "2014",
     "place": "online",
-    "spend": 14
+    "spend": 32
+},
+
+{   
+    "author": "Miranda Kerr",
+    "title": "Treasure yourself",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 21,
+    "year": "2018",
+    "place": "online",
+    "spend": 35
+
+},
+
+{   
+    "author": "Miranda Kerr",
+    "title": "Empower yourself",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 30,
+    "year": "2018",
+    "place": "online",
+    "spend": 33
+
+},
+
+{   
+    "author": "Walter Scott",
+    "title": "The Lord of Isles",
+    "type": "historical",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "store",
+    "spend": 19
+
+},
+
+{   
+    "author": "Walter Scott",
+    "title": "Woodstock",
+    "type": "historical",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "store",
+    "spend": 24
+
+},
+
+{   
+    "author": "Walter Scott",
+    "title": "The Pirate",
+    "type": "historical",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "online",
+    "spend": 24
+
+},
+
+{   
+    "author": "Walter Scott",
+    "title": "Old Mortality",
+    "type": "historical",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2015",
+    "place": "online",
+    "spend": 27
+
+},
+
+{   
+    "author": "Walter Scott",
+    "title": "The Talisman",
+    "type": "historical",
+    "language": "english",
+    "read": "yes",
+    "days": 27,
+    "year": "2015",
+    "place": "store",
+    "spend": 20
+
+},
+
+{   
+    "author": "Agatha Cristie",
+    "title": "Death on the Nile",
+    "type": "crime",
+    "language": "english",
+    "read": "yes",
+    "days": 15,
+    "year": "2015",
+    "place": "store",
+    "spend": 26
+},
+
+{   
+    "author": "Agatha Cristie",
+    "title": "A murder is announced",
+    "type": "crime",
+    "language": "english",
+    "read": "yes",
+    "days": 25,
+    "year": "2015",
+    "place": "online",
+    "spend": 34
+},
+
+{   
+    "author": "Agatha Cristie",
+    "title": "The murder of Roger Ackroyd",
+    "type": "crime",
+    "language": "english",
+    "read": "yes",
+    "days": 15,
+    "year": "2016",
+    "place": "online",
+    "spend": 32
+},
+
+{   
+    "author": "Agatha Cristie",
+    "title": "A murder on the Links",
+    "type": "crime",
+    "language": "english",
+    "read": "yes",
+    "days": 25,
+    "year": "2015",
+    "place": "store",
+    "spend": 29
+},
+
+{   
+    "author": "Agatha Cristie",
+    "title": "The murder at the Vicarage",
+    "type": "crime",
+    "language": "english",
+    "read": "yes",
+    "days": 35,
+    "year": "2015",
+    "place": "online",
+    "spend": 35
+},
+
+{   
+    "author": "Agatha Cristie",
+    "title": "Sleeping murder",
+    "type": "crime",
+    "language": "english",
+    "read": "yes",
+    "days": 12,
+    "year": "2016",
+    "place": "online",
+    "spend": 41
+},
+
+{   
+    "author": "Agatha Cristie",
+    "title": "Crooked house",
+    "type": "crime",
+    "language": "english",
+    "read": "yes",
+    "days": 25,
+    "year": "2015",
+    "place": "online",
+    "spend": 36
+   
+},
+
+{   
+    "author": "Anna Lewandowska",
+    "title": "Zyj zdrowo i aktywnie",
+    "type": "health & fitness",
+    "language": "polish",
+    "read": "yes",
+    "days": 17,
+    "year": "2017",
+    "place": "online",
+    "spend": 24
+    
+},
+
+{   
+    "author": "Anna Lewandowska",
+    "title": "Zdrowe gotowanie by Ann",
+    "type": "health & fitness",
+    "language": "polish",
+    "read": "yes",
+    "days": 27,
+    "year": "2017",
+    "place": "online",
+    "spend": "23"
+
+},
+
+{   
+    "author": "Anna Lewandowska",
+    "title": "Diet & Training by Ann",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 33,
+    "year": "2017",
+    "place": "online",
+    "spend": "19"
+
+},
+
+{   
+    "author": "Anna Lewandowska",
+    "title": "Healthy mama",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 47,
+    "year": "2017",
+    "place": "online",
+    "spend": "18"
+
+},
+
+{   
+    "author": "Anna Lewandowska",
+    "title": "Events by Ann",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 47,
+    "year": "2018",
+    "place": "store",
+    "spend": "12"
+
+},
+
+{   
+    "author": "Anna Lewandowska",
+    "title": "Healthy year by Ann",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 17,
+    "year": "2018",
+    "place": "online",
+    "spend": "23"
+
+},
+
+{   
+    "author": "Anna Lewandowska",
+    "title": "Year by Ann",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 27,
+    "year": "2018",
+    "place": "online",
+    "spend": "15"
+
+},
+
+{   
+    "author": "Ewa Chodakowska",
+    "title": "Zdrowe koktajle",
+    "type": "health & fitness",
+    "language": "polish",
+    "read": "yes",
+    "days": 57,
+    "year": "2017",
+    "place": "online",
+    "spend": "17"
+
+},
+
+{   
+    "author": "Ewa Chodakowska",
+    "title": "Zmien swoje zycie z Ewa Chodakowska",
+    "type": "health & fitness",
+    "language": "polish",
+    "read": "yes",
+    "days": 14,
+    "year": "2018",
+    "place": "online",
+    "spend": "19"
+
+},
+
+{   
+    "author": "Ewa Chodakowska",
+    "title": "Myslnik",
+    "type": "health & fitness",
+    "language": "polish",
+    "read": "yes",
+    "days": 7,
+    "year": "2018",
+    "place": "online",
+    "spend": "15"
+
+},
+
+{   
+    "author": "Ewa Chodakowska",
+    "title": "Rok z Ewa Chodakowska",
+    "type": "health & fitness",
+    "language": "polish",
+    "read": "yes",
+    "days": 14,
+    "year": "2018",
+    "place": "online",
+    "spend": "17"
+
+},
+
+{   
+    "author": "Ewa Chodakowska",
+    "title": "Kick fit",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 14,
+    "year": "2018",
+    "place": "online",
+    "spend": "20"
+
+},
+
+{   
+    "author": "Ewa Chodakowska",
+    "title": "Slim fit",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 14,
+    "year": "2018",
+    "place": "online",
+    "spend": "17"
+
+},
+
+{   
+    "author": "Gabor Mate",
+    "title": "When body says no",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2018",
+    "place": "online",
+    "spend": 12
+    
+},
+
+{   
+    "author": "Gabor Mate",
+    "title": "Scattered minds",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 7,
+    "year": "2018",
+    "place": "online",
+    "spend": 18
+    
+},
+
+{   
+    "author": "Gabor Mate",
+    "title": "Hold on to your kids",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 5,
+    "year": "2018",
+    "place": "online",
+    "spend": 16
+    
+},
+
+{   
+    "author": "Brian Keane",
+    "title": "The fittnes mindset",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 6,
+    "year": "2018",
+    "place": "online",
+    "spend": 17
+    
+},
+
+{   
+    "author": "Brian Keane",
+    "title": "Leaner stronger faster",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2018",
+    "place": "online",
+    "spend": 12
+    
+},
+
+{   
+    "author": "Brian Keane",
+    "title": "GAA leaner stornger faster",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 9,
+    "year": "2018",
+    "place": "online",
+    "spend": 10
+    
+},
+
+{   
+    "author": "Tom Venuto",
+    "title": "Burn the fat feed the muscle",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2018",
+    "place": "online",
+    "spend": 19
+    
+},
+
+{   
+    "author": "Sharon Hoeger",
+    "title": "fitness and wellness",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 10,
+    "year": "2018",
+    "place": "online",
+    "spend": 61
+    
+},
+
+{   
+    "author": "Sharon Hoeger",
+    "title": "physical fitness",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 11,
+    "year": "2017",
+    "place": "online",
+    "spend": 55
+    
+},
+
+{   
+    "author": "Clare Grace",
+    "title": "Overcoming weight problems",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 5,
+    "year": "2018",
+    "place": "online",
+    "spend": 16
+    
+},
+
+
+{   
+    "author": "Daniel Anderson",
+    "title": "Emotional Intellingence",
+    "type": "psychology",
+    "language": "english",
+    "read": "yes",
+    "days": 6,
+    "year": "2019",
+    "place": "online",
+    "spend": "13"
+
+},
+
+{   
+    "author": "Daniel Anderson",
+    "title": "January Rain",
+    "type": "psychology",
+    "language": "english",
+    "read": "yes",
+    "days": 16,
+    "year": "2019",
+    "place": "store",
+    "spend": "18"
+
+},
+
+{   
+    "author": "Daniel Anderson",
+    "title": "Blue rare",
+    "type": "psychology",
+    "language": "english",
+    "read": "yes",
+    "days": 12,
+    "year": "2017",
+    "place": "online",
+    "spend": "23"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "Romeo and Julia",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 72,
+    "year": "2014",
+    "place": "store",
+    "spend": "12"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "Othelo",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 8,
+    "year": "2017",
+    "place": "store",
+    "spend": "14"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "Macbeth",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 3,
+    "year": "2017",
+    "place": "online",
+    "spend": "14"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "Hamlet",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 5,
+    "year": "2018",
+    "place": "online",
+    "spend": "17"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "King lear",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 10,
+    "year": "2014",
+    "place": "store",
+    "spend": "11"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "The merchant of venice",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 7,
+    "year": "2017",
+    "place": "store",
+    "spend": "12"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "The tempest",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 9,
+    "year": "2018",
+    "place": "store",
+    "spend": "15"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "As you like it",
+    "type": "drama",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2017",
+    "place": "online",
+    "spend": "15"
+
+},
+
+{   
+    "author": "William Shakespeare",
+    "title": "The two gentelmen of verona",
+    "type": "drama",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2018",
+    "place": "online",
+    "spend": "11"
+
+},
+
+{   
+    "author": "Daniel Defoe",
+    "title": "Robinson Crusoe",
+    "type": "adventure",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2014",
+    "place": "store",
+    "spend": "13"
+
+},
+
+{   
+    "author": "Daniel Defoe",
+    "title": "Peter Pan",
+    "type": "adventure",
+    "language": "english",
+    "read": "yes",
+    "days": 5,
+    "year": "2017",
+    "place": "store",
+    "spend": "15"
+
+},
+
+{   
+    "author": "Daniel Anderson",
+    "title": "Introducing psychology",
+    "type": "psychology",
+    "language": "english",
+    "read": "yes",
+    "days": 10,
+    "year": "2018",
+    "place": "online",
+    "spend": "23"
+
+},
+
+{   
+    "author": "Richard Martinez",
+    "title": "Dark psychology secrets",
+    "type": "psychology",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2019",
+    "place": "online",
+    "spend": "20"
+
+},
+
+{   
+    "author": "Richard Martinez",
+    "title": "Word of the day",
+    "type": "psychology",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2019",
+    "place": "online",
+    "spend": "20"
+
+},
+
+{   
+    "author": "Richard Martinez",
+    "title": "Caos",
+    "type": "psychology",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2019",
+    "place": "online",
+    "spend": "20"
+
+},
+
+{   
+    "author": "Richard Martinez",
+    "title": "The art of reading people",
+    "type": "psychology",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2018",
+    "place": "online",
+    "spend": "18"
+
+},
+
+{   
+    "author": "Richard Martinez",
+    "title": "Chicano psychology",
+    "type": "psychology",
+    "language": "english",
+    "read": "no",
+    "days": null,
+    "year": "2018",
+    "place": "online",
+    "spend": "18"
+
 },
 
 {   
@@ -349,6 +1217,30 @@
 
 {   
     "author": "J.K.Rowling",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "type": "fantasy",
+    "language": "english",
+    "read": "yes",
+    "days": 21,
+    "year": "2015",
+    "place": "store",
+    "spend": 22
+},
+
+{   
+    "author": "J.K.Rowling",
+    "title": "Harry Potter and the Goblet of Fire",
+    "type": "fantasy",
+    "language": "english",
+    "read": "yes",
+    "days": 35,
+    "year": "2015",
+    "place": "store",
+    "spend": 21
+},
+
+{   
+    "author": "J.K.Rowling",
     "title": "Harry Potter and the Chamber of Secrets",
     "type": "fantasy",
     "language": "english",
@@ -356,7 +1248,138 @@
     "days": 22,
     "year": "2014",
     "place": "online",
+    "spend": 19
+    
+},
+
+{   
+    "author": "Louise Tucker",
+    "title": "Massage",
+    "type": "educational",
+    "language": "english",
+    "read": "yes",
+    "days": 19,
+    "year": "2017",
+    "place": "online",
+    "spend": 27
+    
+},
+
+{   
+    "author": "Ken Robinson",
+    "title": "Out of our minds",
+    "type": "educational",
+    "language": "english",
+    "read": "yes",
+    "days": 3,
+    "year": "2018",
+    "place": "online",
+    "spend": 20
+    
+},
+
+{   
+    "author": "Gabor Mate",
+    "title": "When body says no",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2018",
+    "place": "online",
+    "spend": 12
+    
+},
+
+{   
+    "author": "Gabor Mate",
+    "title": "Scattered minds",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 7,
+    "year": "2018",
+    "place": "online",
+    "spend": 18
+    
+},
+
+{   
+    "author": "Gabor Mate",
+    "title": "Hold on to your kids",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 5,
+    "year": "2018",
+    "place": "online",
+    "spend": 16
+    
+},
+
+{   
+    "author": "Michael Pollan",
+    "title": "Food Rules",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 5,
+    "year": "2018",
+    "place": "online",
     "spend": 17
+    
+},
+
+{   
+    "author": "Michael Pollan",
+    "title": "In defence of food",
+    "type": "health & fitness",
+    "language": "english",
+    "read": "yes",
+    "days": 4,
+    "year": "2018",
+    "place": "online",
+    "spend": 17
+    
+},
+
+{   
+    "author": "Bobbi Brown",
+    "title": "Living beauty",
+    "type": "beauty",
+    "language": "english",
+    "read": "yes",
+    "days": 2,
+    "year": "2018",
+    "place": "online",
+    "spend": 14
+    
+},
+
+{   
+    "author": "Bobbi Brown",
+    "title": "Make up manual",
+    "type": "beauty",
+    "language": "english",
+    "read": "yes",
+    "days": 8,
+    "year": "2018",
+    "place": "online",
+    "spend": 10
+    
+},
+
+{   
+    "author": "Bobbi Brown",
+    "title": "Make up manual",
+    "type": "beauty",
+    "language": "english",
+    "read": "yes",
+    "days": 8,
+    "year": "2018",
+    "place": "online",
+    "spend": 10
     
 }
 ]
+ 
