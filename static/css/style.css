@@ -14,13 +14,31 @@ body {
 }
 
 .photo {
-    background-image: yellow;/*url("../../assets/book.jpg");*/
+    background-image: url("../../assets/book1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    min-height: 500px;
+    position: relative;
 }
+
+.heading {
+    text-align: center;
+}
+
+.btn-group-vertical a {
+    margin: 8px 0px;
+}
+
+
+
+
+
+
+
+
+ 
+/*.........................MAIN*/
 
 /*.chart {
     overflow: auto;

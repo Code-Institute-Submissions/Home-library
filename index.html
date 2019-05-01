@@ -30,64 +30,67 @@
     
 </head>
 <body>
-    
-    <section>
-        <nav class="navbar navbar-inverse">
+   <!--HEADER-->
+    <header>
+        <div class="navbar navbar-inverse">
               <div class="container-fluid">
                 <div class="navbar-header">
                   <a class="navbar-brand" href="#">WELCOME TO MY HOME LIBRARY</a>
                 </div>
               </div>
-        </nav>
-        
-        <div class="photo"></div>
-       
-        <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="row">
-                <div class="col-md-12 photo">
-                    <h3 class="section-heading uppercase">CATEGORIES:</h3>
-                </div>
-            </div>
-                <div class="btn-group-vertical">
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                </div>
-                <div class="btn-group-vertical">
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                    <a href="#" class="btn btn-primary btn-lg">Large button</a>
-                </div>
         </div>
-    </div>
-    </section>
+    </header>
+   <!--/HEADER-->
+   
+   <!--NAV-->
+    <nav class="container-fluid">
+      <div class="row">
+        <div class="col-md-9 photo">
+          <h2>Welcome to my home library.</h2>
+            <h3>Just simply choose your category to see the chart.</h3>
+        </div>
+                
+        <div class="col-md-3">
+          <div class="row">
+            <div class="heading">
+              <h1>CATEGORIES</h1>
+              <div class="btn-group-vertical">
+                <a href="#" class="btn btn-primary btn-lg">AUTOR</a>
+                <a href="#" class="btn btn-primary btn-lg">LANGUAGES</a>
+                <a href="#" class="btn btn-primary btn-lg">TYPE</a>
+                <a href="#" class="btn btn-primary btn-lg">SPEND</a>
+                <a href="#" class="btn btn-primary btn-lg">READED</a>
+                <a href="#" class="btn btn-primary btn-lg">YEAR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--/NAV-->
     
    
             
         
 <main>
     <section class="container-fluid">
-    <div class="row">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 chart">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">AUTOR</h3>
+            </div>
+              <div class="panel-body">
+                <p>ngsgantaayayyryryyyyyyyyyyyyyyyryyyy
+                  gfgggggggggggggggggggggggggggggggggggggg</p>
+                    <div id="author-balance"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
-      <div class="col-sm-12 col-md-12 chart" id="authors-div">
-        <div class="panel panel-success">
-  <div class="panel-heading">
-    <h3 class="panel-title">AUTOR</h3>
-  </div>
-  <div class="panel-body">
-      <p>ngsgantaayayyryryyyyyyyyyyyyyyyryyyy
-      gfgggggggggggggggggggggggggggggggggggggg</p>
-    <div id="autor-balance"></div>
-  </div>
-</div>
-    </div>
-    
-    <div class="row">
-      
-      <div class="col-sm-6 col-md-4 chart" id="language-div">
+      <div class="col-sm-6 col-md-4 chart">
         <div class="panel panel-success">
   <div class="panel-heading">
     <h3 class="panel-title">LANGUAGE</h3>
@@ -103,7 +106,7 @@
     
       </div>
       
-      <div class="col-sm-6 col-md-4 chart" id="type-div">
+      <div class="col-sm-6 col-md-4 chart">
         <div class="panel panel-success">
   <div class="panel-heading">
     <h3 class="panel-title">TYPE</h3></h3>
@@ -121,7 +124,7 @@
 </div>
       </div>
       
-      <div class="col-sm-6 col-md-4 chart" id="readed-div">
+      <div class="col-sm-6 col-md-4 chart">
         <div class="panel panel-success">
   <div class="panel-heading">
     <h3 class="panel-title">Readed or non-readed</h3>
@@ -136,8 +139,21 @@
   </div>
 </div>
       </div>
+       <div class="col-sm-6 col-md-8 chart" id="spend-div">
+        <div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">SPEND</h3>
+  </div>
+  <div class="panel-body">
+    <p>ggggggggggggggggggggggggggggggggggggggggg
+    hjjskjsjdjdjdjdjjdjdjdjdjdjdjdjjdjdjdjdjdjd
+    ncncncncncncncnncncncncncncncncncncncncncn
+    iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+    pppppppppppppppppppppppppppppppppppppppp</p>
+     <div id="spend-balance"></div>
+  </div>
+</div>
       
-      <div class="row">
       
       <div class="col-sm-6 col-md-4 chart" id="year-div">
        <div class="panel panel-success">
@@ -153,21 +169,8 @@
 </div>
       </div>
       
-      <div class="col-sm-6 col-md-8 chart" id="spend-div">
-        <div class="panel panel-success">
-  <div class="panel-heading">
-    <h3 class="panel-title">SPEND</h3>
-  </div>
-  <div class="panel-body">
-    <p>ggggggggggggggggggggggggggggggggggggggggg
-    hjjskjsjdjdjdjdjjdjdjdjdjdjdjdjjdjdjdjdjdjd
-    ncncncncncncncnncncncncncncncncncncncncncn
-    iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-    pppppppppppppppppppppppppppppppppppppppp</p>
-     <div id="spend-balance"></div>
-  </div>
-</div>
-        <div id="spend-balance"></div>
+     
+        
       </div>
       </div>
       </div>
