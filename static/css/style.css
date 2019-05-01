@@ -14,7 +14,7 @@ body {
 }
 
 .photo {
-    background-image: yellow;/*url("../../assets/book1.jpg");*/
+    background-image: yellow;/*url("../../assets/book.jpg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,6 +22,6 @@ body {
     padding: 0;
 }
 
-.chart {
+/*.chart {
     overflow: auto;
-}
+}*/

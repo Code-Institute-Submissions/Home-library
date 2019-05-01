@@ -108,7 +108,7 @@ function show_spend(ndx){
     var stackedChart = dc.barChart("#spend-balance");
     
     stackedChart
-        .width(400)
+        .width(700)
         .height(300)
         .dimension(place_dim)
         .group(spendByPlaceLanguagePolish, "Polish")
