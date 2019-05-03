@@ -4,6 +4,7 @@
     
 function makeGraphs(error, booksData) {
    var ndx = crossfilter(booksData);
+   
    show_spend(ndx);
    show_readed(ndx);
    show_year(ndx);
@@ -20,7 +21,7 @@ function show_author(ndx){
     var group = dim.group();
     
     dc.barChart("#author-balance")
-        .width(1300)
+        .width(900)
         .height(600)
         .margins({top:10, right:70, bottom:30, left: 70})
         .dimension(dim)
@@ -40,8 +41,8 @@ function show_languages(ndx){
     var group = dim.group();
     
     dc.barChart("#language-balance")
-        .width(400)
-        .height(300)
+        .width(600)
+        .height(400)
         .margins({top:10, right:50, bottom:30, left:50})
         .dimension(dim)
         .group(group)
@@ -59,8 +60,8 @@ function show_readed(ndx){
     var group = dim.group();
     
     dc.barChart("#readed-balance")
-        .width(400)
-        .height(300)
+        .width(600)
+        .height(400)
         .margins({top:10, right:50, bottom:30, left:50})
         .dimension(dim)
         .group(group)
@@ -79,8 +80,8 @@ function show_type(ndx){
     var group = dim.group();
     
     dc.pieChart("#type-balance")
-        .height(350)
-        .radius(100)
+        .height(500)
+        .radius(300)
         .transitionDuration(500)
         .dimension(dim)
         .group(group)
@@ -124,8 +125,8 @@ function show_year(ndx){
     var group = dim.group();
     
     dc.pieChart("#year-balance")
-        .height(350)
-        .radius(100)
+        .height(500)
+        .radius(300)
         .transitionDuration(500)
         .dimension(dim)
         .group(group)

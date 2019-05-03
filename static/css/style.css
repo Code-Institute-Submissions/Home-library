@@ -1,17 +1,9 @@
-
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
-/*........................Header*/
-
-.navbar-header {
-    word-spacing: 8px;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-}
+/*---------------------Header*/
 
 .photo {
     background-image: url("../../assets/book1.jpg");
@@ -22,24 +14,73 @@ body {
     position: relative;
 }
 
-.heading {
+blockquote p {
+    font-size: 35px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+@media (max-width: 767px) {
+    blockquote p {
+        font-size: 30px;
+        color: #F08080;
+    }
+}
+
+/*---------------------Alert*/
+
+.container-fluid {
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    background-color: #18bc9c;
+    margin: 0;
+    padding: 0;
+}
+
+
+h4 {
     text-align: center;
+    margin: 0;
+    padding: 20px 35px;
+    color: #000;
 }
 
-.btn-group-vertical a {
-    margin: 8px 0px;
+/*-----------------------Sidebar*/
+
+.sidebar {
+    background-color: #18bc9c;
+    height: 600px;
+}
+
+#nav {
+    
+}
+
+#nav li {
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#nav li:hover {
+    color: #000;
+    transition-duration: 1s;
 }
 
 
 
 
 
-
-
-
- 
-/*.........................MAIN*/
-
-/*.chart {
-    overflow: auto;
-}*/
+    
+    
+    
+    
+    
+    
