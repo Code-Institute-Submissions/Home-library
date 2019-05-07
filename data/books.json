@@ -43,7 +43,7 @@
     "read": "yes",
     "days": 60,
     "year": "2014",
-    "place": "online",
+    "place": "library",
     "spend": 23
 },
 
@@ -139,7 +139,7 @@
     "read": "yes",
     "days": 30,
     "year": "2014",
-    "place": "online",
+    "place": "library",
     "spend": 32
 },
 
@@ -247,7 +247,7 @@
     "read": "no",
     "days": null,
     "year": "2014",
-    "place": "online",
+    "place": "library",
     "spend": 26
 },
 
@@ -283,7 +283,7 @@
     "read": "no",
     "days": null,
     "year": "2017",
-    "place": "online",
+    "place": "library",
     "spend": 28
 },
 
@@ -626,7 +626,7 @@
     "read": "yes",
     "days": 12,
     "year": "2016",
-    "place": "online",
+    "place": "library",
     "spend": 41
 },
 

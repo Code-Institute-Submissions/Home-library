@@ -24,6 +24,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 
   <script src="static/js/graphs.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("user_Vx80lAcpddwQ51KMUlRAk");
+      emailjs.send("gmail", "template_uNsZhF8L", {name: "Aneta", notes: "Hi"});
+   })();
+</script>
 
     
 </head>
@@ -62,28 +69,72 @@
             <div class="col-sm-12 col-md-12">
               <ul id="nav">
                 <li><a href="#"></a>LANGUAGE</li>
-                <li><a href="#"></a>AUTHOR</li>
+                <li><a href="#author"></a>AUTHOR</li>
                 <li><a href="#"></a>YEAR</li>
                 <li><a href="#"></a>READED</li>
                 <li><a href="#"></a>SPEND</li>
                 <li><a href="#"></a>TYPES</li>
+                <li><a href="#"></a>PLACE</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-8 main">
           <h3>Dashboard</h3>
-            <div class="panel panel-default graphs">
-              <div class="panel-body">
-                Panel content
-              <div id="year-balance"></div>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 border id="year">
+                <div class="title">Year</div>
+                <p class="about">I am collecting books since I was little. I selected books which I bought for the last six years only. 
+                This graph shows that I am a good reader for the past few years but in 2018 I red the biggest amount of books.
+                </p>
+                <div id="year-balance"></div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 border id="language">
+                <div class="title">Language</div>
+                <p class="about">I speak in two languages. Even though polish is my mother tongue I have larger amount of books in English. 
+                I think its good to read a lot of books in language you are learning.</p>
+                <div id="language-balance"></div>
+              </div>
             </div>
-        </div>
+            
+            <div class="row"> 
+              <div class="col-sm-6 col-md-6 border id="spend">
+                <div class="title">Spend</div>
+                <p class="about"></p>
+                <div id="spend-balance"></div>
+              </div>
+              
+              <div class="col-sm-6 col-md-6 border id="type">
+                <div class="title">Type</div>
+                <p></p>
+                <div id="type-balance"></div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4 border id="place">
+                <div class="title">Place</div>
+                <p class="about"></p>
+                <div id="place-balance"></div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 border id="readed">
+                <div class="title">Readed</div>
+                <p class="about"></p>
+                <div id="readed-balance"></div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-12 col-md-12 border id="author">
+                <div class="title">Author</div>
+                <p clss="about"></p>
+                <div id="author-balance"></div>
+              </div>
+            </div>
       </div>
-    </div>
-             
-        </div>
-    </div>
+    </div>               
   </section>
   <footer class="container-fluid">
     <div class="row row-footer">

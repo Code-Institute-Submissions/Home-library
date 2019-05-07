@@ -5,6 +5,7 @@
     function makeGraphs(error, booksData) {
    var ndx = crossfilter(booksData);
    
+   show_place(ndx);
    show_spend(ndx);
    show_author(ndx);
    show_type(ndx);
@@ -30,13 +31,13 @@
         .legend(dc.legend().gap(10))
 }
 
-function show_languages(ndx){
+function show_language(ndx){
     var dim = ndx.dimension(dc.pluck("language"));
     var group = dim.group();
     
     dc.barChart("#language-balance")
-        .width(600)
-        .height(400)
+        .width(400)
+        .height(600)
         .margins({top:10, right:50, bottom:30, left:50})
         .dimension(dim)
         .group(group)
@@ -44,7 +45,7 @@ function show_languages(ndx){
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(false)
-        .xAxisLabel("languages")
+        .xAxisLabel("language")
         .yAxisLabel("books")
         .yAxis().ticks(10)
 }
@@ -54,8 +55,8 @@ function show_readed(ndx){
     var group = dim.group();
     
     dc.barChart("#readed-balance")
-        .width(600)
-        .height(400)
+        .width(400)
+        .height(600)
         .margins({top:10, right:50, bottom:30, left:50})
         .dimension(dim)
         .group(group)
@@ -64,6 +65,25 @@ function show_readed(ndx){
         .xUnits(dc.units.ordinal)
         .elasticY(false)
         .xAxisLabel("read or non-readed")
+        .yAxisLabel("books")
+        .yAxis().ticks(10)
+}
+
+function show_place(ndx){
+    var dim = ndx.dimension(dc.pluck("place"));
+    var group = dim.group();
+    
+    dc.barChart("#place-balance")
+        .width(400)
+        .height(600)
+        .margins({top:10, right:50, bottom:30, left:50})
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(500)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .elasticY(false)
+        .xAxisLabel("place")
         .yAxisLabel("books")
         .yAxis().ticks(10)
 }
@@ -86,7 +106,7 @@ function show_author(ndx){
     var group = dim.group();
     
     dc.barChart("#author-balance")
-        .width(700)
+        .width(1200)
         .height(500)
         .margins({top:10, right:70, bottom:30, left: 70})
         .dimension(dim)
@@ -110,6 +130,7 @@ function show_spend(ndx){
         }
     });
     
+    
     var spendByPlaceLanguageEnglish = place_dim.group().reduceSum(function (d) {
         if(d.place === "store") {
             return +d.spend;
@@ -118,19 +139,23 @@ function show_spend(ndx){
         }
     });
     
+    
     var stackedChart = dc.barChart("#spend-balance");
     
     stackedChart
-        .width(500)
-        .height(300)
+        .width(400)
+        .height(600)
         .dimension(place_dim)
         .group(spendByPlaceLanguagePolish, "Polish")
         .stack(spendByPlaceLanguageEnglish, "English")
         .x(d3.scale.ordinal())
         .legend(dc.legend().x(380).y(0).itemHeight(10).gap(6));
-    stackedChart.margins().right = 100;
+    stackedChart.margins().right = 50;
     
+ 
 }
+
+
 
 
 

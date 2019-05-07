@@ -20,7 +20,7 @@ blockquote p {
     padding-top: 50px;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     blockquote p {
         font-size: 30px;
         color: #F08080;
@@ -52,7 +52,7 @@ h4 {
 
 .sidebar {
     background-color: #18bc9c;
-    height: 600px;
+    min-height: 2900px;
 }
 
 
@@ -68,35 +68,41 @@ h4 {
 
 #nav li:hover {
     color: #000;
-    transition: all 0.35s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
+    transition-property: color;
+    transition-duration: 0.35s;
+    transition-timing-function: ease-in-out;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     #nav li {
         font-size: 20px;
-        
     }
 }
 
 /*------------------------Main*/
 
 .main {
-    background-color: #95a5a6;
-    height: 600px;
+    background-color: ivory;
+    min-height: 2500px;
 }
 
 h3 {
     padding-left: 50px;
     padding-top: 40px;
+    padding-bottom: 45px;
     margin: 0;
 }
 
-.graphs {
-    margin: 50px 50px;
+.title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
 }
+
+.about {
+    font-size: 22px;
+}
+
 
 /*------------------------Footer*/
 
@@ -140,15 +146,3 @@ footer {
 }
 
 
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
