@@ -40,7 +40,7 @@
     "read": "yes",
     "year": "2014",
     "place": "library",
-    "spend": 23
+    "spend": null
 },
 
 {   
@@ -128,7 +128,7 @@
     "read": "yes",
     "year": "2014",
     "place": "library",
-    "spend": 32
+    "spend": null
 },
 
 { 
@@ -227,7 +227,7 @@
     "read": "no",
     "year": "2014",
     "place": "library",
-    "spend": 26
+    "spend": null
 },
 
 {   
@@ -260,7 +260,7 @@
     "read": "no",
     "year": "2017",
     "place": "library",
-    "spend": 28
+    "spend": null
 },
 
 {   
@@ -575,7 +575,7 @@
     "read": "yes",
     "year": "2016",
     "place": "library",
-    "spend": 41
+    "spend": null
 },
 
 {   

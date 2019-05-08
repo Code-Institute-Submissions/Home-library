@@ -5,6 +5,7 @@
     function makeGraphs(error, booksData) {
    var ndx = crossfilter(booksData);
    
+ 
    show_place(ndx);
    show_spend(ndx);
    show_author(ndx);
@@ -121,40 +122,38 @@ function show_author(ndx){
 }
 
 function show_spend(ndx){
-    var place_dim = ndx.dimension(dc.pluck("place"));
-    var spendByPlaceLanguagePolish = place_dim.group().reduceSum(function (d) {
-        if(d.place === "online") {
-            return +d.spend;
-        } else {
-            return 0;
-        }
-    });
-    
-    
-    var spendByPlaceLanguageEnglish = place_dim.group().reduceSum(function (d) {
-        if(d.place === "store") {
-            return +d.spend;
-        } else {
-            return 0;
-        }
-    });
-    
-    
-    var stackedChart = dc.barChart("#spend-balance");
-    
-    stackedChart
-        .width(400)
-        .height(600)
-        .dimension(place_dim)
-        .group(spendByPlaceLanguagePolish, "Polish")
-        .stack(spendByPlaceLanguageEnglish, "English")
-        .x(d3.scale.ordinal())
-        .legend(dc.legend().x(380).y(0).itemHeight(10).gap(6));
-    stackedChart.margins().right = 50;
-    
- 
+
+        var place_dim = ndx.dimension(dc.pluck('place'));
+        var spendByPlaceLanguagePolish = place_dim.group().reduceSum(function (d) {
+            if (d.language === 'polish') {
+                return +d.spend;
+            } else {
+                return 0;
+            }
+        });
+        var spendByPlaceLanguageEnglish = place_dim.group().reduceSum(function (d) {
+            if (d.language === 'english') {
+                return +d.spend;
+            } else {
+                return 0;
+            }
+        });
+        var stackedChart = dc.barChart("#spend-balance");
+        
+        stackedChart
+            .width(500)
+            .height(500)
+            .dimension(place_dim)
+            .group(spendByPlaceLanguagePolish, "polish")
+            .stack(spendByPlaceLanguageEnglish, "english")
+            .x(d3.scale.ordinal())
+            .xUnits(dc.units.ordinal)
+            .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
+        stackedChart.margins().right = 100;
+
 }
 
+   
 
 
 
