@@ -64,7 +64,7 @@ function show_readed(ndx){
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(false)
-        .xAxisLabel("read or non-readed")
+        .xAxisLabel("readed or non-readed")
         .yAxisLabel("books")
         .yAxis().ticks(10)
 }

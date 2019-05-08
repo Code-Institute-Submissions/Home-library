@@ -4,7 +4,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "yes",
-    "days": 18,
     "year": "2015",
     "place": "online",
     "spend": 18
@@ -17,7 +16,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2014",
     "place": "store",
     "spend": 22
@@ -29,7 +27,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "yes",
-    "days": 13,
     "year": "2014",
     "place": "store",
     "spend": 16
@@ -41,7 +38,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "yes",
-    "days": 60,
     "year": "2014",
     "place": "library",
     "spend": 23
@@ -53,7 +49,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "yes",
-    "days": 30,
     "year": "2017",
     "place": "store",
     "spend": 22
@@ -65,7 +60,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2017",
     "place": "store",
     "spend": 14
@@ -77,7 +71,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2017",
     "place": "online",
     "spend": 19
@@ -89,7 +82,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "yes",
-    "days": 10,
     "year": "2017",
     "place": "online",
     "spend": 23
@@ -101,7 +93,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "yes",
-    "days": 20,
     "year": "2017",
     "place": "online",
     "spend": 20
@@ -113,7 +104,6 @@
     "type": "mind & spirit",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2017",
     "place": "online",
     "spend": 27
@@ -125,7 +115,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 10,
     "year": "2014",
     "place": "online",
     "spend": 30
@@ -137,19 +126,17 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 30,
     "year": "2014",
     "place": "library",
     "spend": 32
 },
 
-{   
+{ 
     "author": "Jamie Oliver",
     "title": "Jamie's 30-minute meals",
     "type": "cook book",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2016",
     "place": "online",
     "spend": 38
@@ -161,7 +148,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 10,
     "year": "2016",
     "place": "online",
     "spend": 36
@@ -173,7 +159,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 30,
     "year": "2016",
     "place": "online",
     "spend": 33
@@ -185,7 +170,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 55,
     "year": "2017",
     "place": "online",
     "spend": 31
@@ -197,7 +181,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 55,
     "year": "2017",
     "place": "store",
     "spend": 26
@@ -209,7 +192,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 65,
     "year": "2017",
     "place": "online",
     "spend": 35
@@ -221,7 +203,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 25,
     "year": "2017",
     "place": "online",
     "spend": 30
@@ -233,7 +214,6 @@
     "type": "cook book",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2014",
     "place": "online",
     "spend": 24
@@ -245,7 +225,6 @@
     "type": "cook book",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2014",
     "place": "library",
     "spend": 26
@@ -257,7 +236,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 48,
     "year": "2014",
     "place": "online",
     "spend": 32
@@ -269,7 +247,6 @@
     "type": "cook book",
     "language": "english",
     "read": "yes",
-    "days": 78,
     "year": "2014",
     "place": "online",
     "spend": 30
@@ -281,7 +258,6 @@
     "type": "love story",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2017",
     "place": "library",
     "spend": 28
@@ -293,7 +269,6 @@
     "type": "biography",
     "language": "english",
     "read": "yes",
-    "days": 9,
     "year": "2017",
     "place": "online",
     "spend": 23
@@ -305,7 +280,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 3,
     "year": "2014",
     "place": "store",
     "spend": 16
@@ -317,7 +291,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 16,
     "year": "2014",
     "place": "online",
     "spend": 19
@@ -329,7 +302,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 10,
     "year": "2014",
     "place": "online",
     "spend": 20
@@ -341,7 +313,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 13,
     "year": "2014",
     "place": "store",
     "spend": 17
@@ -353,7 +324,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 10,
     "year": "2014",
     "place": "online",
     "spend": 21
@@ -365,7 +335,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 21,
     "year": "2015",
     "place": "online",
     "spend": 27
@@ -377,7 +346,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 28,
     "year": "2015",
     "place": "store",
     "spend": 18
@@ -389,7 +357,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 20,
     "year": "2014",
     "place": "online",
     "spend": 24
@@ -401,7 +368,6 @@
     "type": "love story",
     "language": "polish",
     "read": "yes",
-    "days": 17,
     "year": "2015",
     "place": "online",
     "spend": 18
@@ -413,7 +379,6 @@
     "type": "love story",
     "language": "polish",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "online",
     "spend": 18
@@ -425,7 +390,6 @@
     "type": "love story",
     "language": "polish",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "store",
     "spend": 28
@@ -437,7 +401,6 @@
     "type": "love story",
     "language": "polish",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "store",
     "spend": 19
@@ -449,7 +412,6 @@
     "type": "love story",
     "language": "polish",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "store",
     "spend": 25
@@ -461,7 +423,6 @@
     "type": "love story",
     "language": "polish",
     "read": "no",
-    "days": null,
     "year": "2014",
     "place": "online",
     "spend": 32
@@ -473,7 +434,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 21,
     "year": "2018",
     "place": "online",
     "spend": 35
@@ -486,7 +446,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 30,
     "year": "2018",
     "place": "online",
     "spend": 33
@@ -499,7 +458,6 @@
     "type": "historical",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "store",
     "spend": 19
@@ -512,7 +470,6 @@
     "type": "historical",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "store",
     "spend": 24
@@ -525,7 +482,6 @@
     "type": "historical",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "online",
     "spend": 24
@@ -538,7 +494,6 @@
     "type": "historical",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2015",
     "place": "online",
     "spend": 27
@@ -551,7 +506,6 @@
     "type": "historical",
     "language": "english",
     "read": "yes",
-    "days": 27,
     "year": "2015",
     "place": "store",
     "spend": 20
@@ -564,7 +518,6 @@
     "type": "crime",
     "language": "english",
     "read": "yes",
-    "days": 15,
     "year": "2015",
     "place": "store",
     "spend": 26
@@ -576,7 +529,6 @@
     "type": "crime",
     "language": "english",
     "read": "yes",
-    "days": 25,
     "year": "2015",
     "place": "online",
     "spend": 34
@@ -588,7 +540,6 @@
     "type": "crime",
     "language": "english",
     "read": "yes",
-    "days": 15,
     "year": "2016",
     "place": "online",
     "spend": 32
@@ -600,7 +551,6 @@
     "type": "crime",
     "language": "english",
     "read": "yes",
-    "days": 25,
     "year": "2015",
     "place": "store",
     "spend": 29
@@ -612,7 +562,6 @@
     "type": "crime",
     "language": "english",
     "read": "yes",
-    "days": 35,
     "year": "2015",
     "place": "online",
     "spend": 35
@@ -624,7 +573,6 @@
     "type": "crime",
     "language": "english",
     "read": "yes",
-    "days": 12,
     "year": "2016",
     "place": "library",
     "spend": 41
@@ -636,7 +584,6 @@
     "type": "crime",
     "language": "english",
     "read": "yes",
-    "days": 25,
     "year": "2015",
     "place": "online",
     "spend": 36
@@ -649,7 +596,6 @@
     "type": "health & fitness",
     "language": "polish",
     "read": "yes",
-    "days": 17,
     "year": "2017",
     "place": "online",
     "spend": 24
@@ -662,7 +608,6 @@
     "type": "health & fitness",
     "language": "polish",
     "read": "yes",
-    "days": 27,
     "year": "2017",
     "place": "online",
     "spend": "23"
@@ -675,7 +620,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 33,
     "year": "2017",
     "place": "online",
     "spend": "19"
@@ -688,7 +632,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 47,
     "year": "2017",
     "place": "online",
     "spend": "18"
@@ -701,7 +644,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 47,
     "year": "2018",
     "place": "store",
     "spend": "12"
@@ -714,7 +656,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 17,
     "year": "2018",
     "place": "online",
     "spend": "23"
@@ -727,7 +668,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 27,
     "year": "2018",
     "place": "online",
     "spend": "15"
@@ -740,7 +680,6 @@
     "type": "health & fitness",
     "language": "polish",
     "read": "yes",
-    "days": 57,
     "year": "2017",
     "place": "online",
     "spend": "17"
@@ -753,7 +692,6 @@
     "type": "health & fitness",
     "language": "polish",
     "read": "yes",
-    "days": 14,
     "year": "2018",
     "place": "online",
     "spend": "19"
@@ -766,7 +704,6 @@
     "type": "health & fitness",
     "language": "polish",
     "read": "yes",
-    "days": 7,
     "year": "2018",
     "place": "online",
     "spend": "15"
@@ -779,7 +716,6 @@
     "type": "health & fitness",
     "language": "polish",
     "read": "yes",
-    "days": 14,
     "year": "2018",
     "place": "online",
     "spend": "17"
@@ -792,7 +728,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 14,
     "year": "2018",
     "place": "online",
     "spend": "20"
@@ -805,7 +740,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 14,
     "year": "2018",
     "place": "online",
     "spend": "17"
@@ -818,7 +752,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 4,
     "year": "2018",
     "place": "online",
     "spend": 12
@@ -831,7 +764,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 7,
     "year": "2018",
     "place": "online",
     "spend": 18
@@ -844,7 +776,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 5,
     "year": "2018",
     "place": "online",
     "spend": 16
@@ -857,7 +788,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 6,
     "year": "2018",
     "place": "online",
     "spend": 17
@@ -870,7 +800,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 4,
     "year": "2018",
     "place": "online",
     "spend": 12
@@ -883,7 +812,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 9,
     "year": "2018",
     "place": "online",
     "spend": 10
@@ -896,7 +824,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 4,
     "year": "2018",
     "place": "online",
     "spend": 19
@@ -909,7 +836,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 10,
     "year": "2018",
     "place": "online",
     "spend": 61
@@ -922,7 +848,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 11,
     "year": "2017",
     "place": "online",
     "spend": 55
@@ -935,7 +860,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 5,
     "year": "2018",
     "place": "online",
     "spend": 16
@@ -949,7 +873,6 @@
     "type": "psychology",
     "language": "english",
     "read": "yes",
-    "days": 6,
     "year": "2019",
     "place": "online",
     "spend": "13"
@@ -962,7 +885,6 @@
     "type": "psychology",
     "language": "english",
     "read": "yes",
-    "days": 16,
     "year": "2019",
     "place": "store",
     "spend": "18"
@@ -975,7 +897,6 @@
     "type": "psychology",
     "language": "english",
     "read": "yes",
-    "days": 12,
     "year": "2017",
     "place": "online",
     "spend": "23"
@@ -988,7 +909,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 72,
     "year": "2014",
     "place": "store",
     "spend": "12"
@@ -1001,7 +921,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 8,
     "year": "2017",
     "place": "store",
     "spend": "14"
@@ -1014,7 +933,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 3,
     "year": "2017",
     "place": "online",
     "spend": "14"
@@ -1027,7 +945,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 5,
     "year": "2018",
     "place": "online",
     "spend": "17"
@@ -1040,7 +957,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 10,
     "year": "2014",
     "place": "store",
     "spend": "11"
@@ -1053,7 +969,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 7,
     "year": "2017",
     "place": "store",
     "spend": "12"
@@ -1066,7 +981,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 9,
     "year": "2018",
     "place": "store",
     "spend": "15"
@@ -1079,7 +993,6 @@
     "type": "drama",
     "language": "english",
     "read": "yes",
-    "days": 4,
     "year": "2017",
     "place": "online",
     "spend": "15"
@@ -1092,7 +1005,6 @@
     "type": "drama",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2018",
     "place": "online",
     "spend": "11"
@@ -1105,7 +1017,6 @@
     "type": "adventure",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2014",
     "place": "store",
     "spend": "13"
@@ -1118,7 +1029,6 @@
     "type": "adventure",
     "language": "english",
     "read": "yes",
-    "days": 5,
     "year": "2017",
     "place": "store",
     "spend": "15"
@@ -1131,7 +1041,6 @@
     "type": "psychology",
     "language": "english",
     "read": "yes",
-    "days": 10,
     "year": "2018",
     "place": "online",
     "spend": "23"
@@ -1144,7 +1053,6 @@
     "type": "psychology",
     "language": "english",
     "read": "yes",
-    "days": 4,
     "year": "2019",
     "place": "online",
     "spend": "20"
@@ -1157,7 +1065,6 @@
     "type": "psychology",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2019",
     "place": "online",
     "spend": "20"
@@ -1170,7 +1077,6 @@
     "type": "psychology",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2019",
     "place": "online",
     "spend": "20"
@@ -1183,7 +1089,6 @@
     "type": "psychology",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2018",
     "place": "online",
     "spend": "18"
@@ -1196,7 +1101,6 @@
     "type": "psychology",
     "language": "english",
     "read": "no",
-    "days": null,
     "year": "2018",
     "place": "online",
     "spend": "18"
@@ -1209,7 +1113,6 @@
     "type": "fantasy",
     "language": "english",
     "read": "yes",
-    "days": 12,
     "year": "2014",
     "place": "store",
     "spend": 22
@@ -1221,7 +1124,6 @@
     "type": "fantasy",
     "language": "english",
     "read": "yes",
-    "days": 21,
     "year": "2015",
     "place": "store",
     "spend": 22
@@ -1233,7 +1135,6 @@
     "type": "fantasy",
     "language": "english",
     "read": "yes",
-    "days": 35,
     "year": "2015",
     "place": "store",
     "spend": 21
@@ -1245,7 +1146,6 @@
     "type": "fantasy",
     "language": "english",
     "read": "yes",
-    "days": 22,
     "year": "2014",
     "place": "online",
     "spend": 19
@@ -1258,7 +1158,6 @@
     "type": "educational",
     "language": "english",
     "read": "yes",
-    "days": 19,
     "year": "2017",
     "place": "online",
     "spend": 27
@@ -1271,7 +1170,6 @@
     "type": "educational",
     "language": "english",
     "read": "yes",
-    "days": 3,
     "year": "2018",
     "place": "online",
     "spend": 20
@@ -1284,7 +1182,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 4,
     "year": "2018",
     "place": "online",
     "spend": 12
@@ -1297,7 +1194,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 7,
     "year": "2018",
     "place": "online",
     "spend": 18
@@ -1310,7 +1206,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 5,
     "year": "2018",
     "place": "online",
     "spend": 16
@@ -1323,7 +1218,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 5,
     "year": "2018",
     "place": "online",
     "spend": 17
@@ -1336,7 +1230,6 @@
     "type": "health & fitness",
     "language": "english",
     "read": "yes",
-    "days": 4,
     "year": "2018",
     "place": "online",
     "spend": 17
@@ -1349,7 +1242,6 @@
     "type": "beauty",
     "language": "english",
     "read": "yes",
-    "days": 2,
     "year": "2018",
     "place": "online",
     "spend": 14
@@ -1362,7 +1254,6 @@
     "type": "beauty",
     "language": "english",
     "read": "yes",
-    "days": 8,
     "year": "2018",
     "place": "online",
     "spend": 10
@@ -1375,7 +1266,6 @@
     "type": "beauty",
     "language": "english",
     "read": "yes",
-    "days": 8,
     "year": "2018",
     "place": "online",
     "spend": 10

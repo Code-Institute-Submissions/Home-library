@@ -52,7 +52,7 @@ h4 {
 
 .sidebar {
     background-color: #18bc9c;
-    min-height: 2900px;
+    min-height: 3200px;
 }
 
 
@@ -100,6 +100,11 @@ h3 {
 }
 
 .about {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+ul li {
     font-size: 22px;
 }
 
