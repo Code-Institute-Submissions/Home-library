@@ -65,7 +65,7 @@ function show_readed(ndx){
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(false)
-        .xAxisLabel("readed or non-readed")
+        .xAxisLabel("completly read or not")
         .yAxisLabel("books")
         .yAxis().ticks(10)
 }
@@ -84,7 +84,7 @@ function show_place(ndx){
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(false)
-        .xAxisLabel("place")
+        .xAxisLabel("source")
         .yAxisLabel("books")
         .yAxis().ticks(10)
 }
@@ -107,7 +107,7 @@ function show_author(ndx){
     var group = dim.group();
     
     dc.barChart("#author-balance")
-        .width(1200)
+        .width(2200)
         .height(500)
         .margins({top:10, right:70, bottom:30, left: 70})
         .dimension(dim)
@@ -148,6 +148,8 @@ function show_spend(ndx){
             .stack(spendByPlaceLanguageEnglish, "english")
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
+            .xAxisLabel("source")
+            .yAxisLabel("euro")
             .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
         stackedChart.margins().right = 100;
 

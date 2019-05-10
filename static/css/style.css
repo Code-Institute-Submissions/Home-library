@@ -30,7 +30,7 @@ blockquote p {
 /*---------------------Description*/
 
 .container-fluid {
-    padding: 0;
+    padding: 0px;
 }
 
 .box {
@@ -41,43 +41,19 @@ blockquote p {
 }
 
 
-h4 {
+.description {
     text-align: center;
     margin: 0;
-    padding: 20px 35px;
+    padding: 30px 140px;
     color: #fff;
+    font-size: 20px;
 }
 
-/*-----------------------Sidebar*/
-
-.sidebar {
-    background-color: #18bc9c;
-    min-height: 3500px;
-}
+/*-----------------------Menu*/
 
 
-#nav li {
-    list-style: none;
-    color: #fff;
-    font-size: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    border-bottom: 1px solid;
-}
 
-#nav li:hover {
-    color: #000;
-    transition-property: color;
-    transition-duration: 0.35s;
-    transition-timing-function: ease-in-out;
-}
 
-@media screen and (max-width: 767px) {
-    #nav li {
-        font-size: 20px;
-    }
-}
 
 /*------------------------Main*/
 
@@ -106,6 +82,14 @@ h3 {
 
 ul li {
     font-size: 22px;
+}
+
+.border {
+     white-space: nowrap;
+     overflow-x: visible;
+     overflow-y: hidden;
+     width: 1350px;
+
 }
 
 
