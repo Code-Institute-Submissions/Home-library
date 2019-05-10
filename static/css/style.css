@@ -20,12 +20,6 @@ blockquote p {
     padding-top: 50px;
 }
 
-@media screen and (max-width: 767px) {
-    blockquote p {
-        font-size: 30px;
-        color: #F08080;
-    }
-}
 
 /*---------------------Description*/
 
@@ -44,13 +38,17 @@ blockquote p {
 .description {
     text-align: center;
     margin: 0;
-    padding: 30px 140px;
+    padding: 30px 150px;
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
+    word-spacing: 3px;
 }
 
 /*-----------------------Menu*/
 
+.navigation li a {
+    padding: 40px 50px;
+}
 
 
 
@@ -58,7 +56,6 @@ blockquote p {
 /*------------------------Main*/
 
 .main {
-    background-color: ivory;
     min-height: 2500px;
 }
 
@@ -88,7 +85,7 @@ ul li {
      white-space: nowrap;
      overflow-x: visible;
      overflow-y: hidden;
-     width: 1350px;
+     width: 1600px;
 
 }
 
@@ -134,4 +131,11 @@ footer {
     padding-left: 30px;
 }
 
+/*----------------------Media Queries*/
 
+@media screen and (max-width: 767px) {
+    blockquote p {
+        font-size: 30px;
+        color: #F08080;
+    }
+}

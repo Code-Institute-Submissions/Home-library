@@ -63,15 +63,35 @@
   </section>
   
   <section>
-    <ul>
-      <li><a href="#AUTHOR"></a></li>
-      <li><a href="#YEAR OF PURCHASE"></a></li>
-      <li><a href="#LANGUAGE"></a></li>
-      <li><a href="#BOOK PRICE"></a></li>
-      <li><a href="#BOOK GENRE"></a></li>
-      <li><a href="#COMPLETLY READ"></a></li>
-      <li><a href="#BOOK SOURCE"></a></li>
-    </ul>
+     <!--Navbar-->
+  <nav class="navbar">
+    <div class="container-fluid navbar-container navbar-default bg-color-navbar">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navigation">
+              <li><a href="#author">AUTHOR</a></li>
+              <li><a href="#book-price">BOOK PRICE</a></li>
+              <li><a href="#year-of-purchace">YEAR OF PURCHACE</a></li>
+              <li><a href="#language">LANGUAGE</a></li>
+              <li><a href="#book-source">BOOK SOURCE</a></li>
+              <li><a href="#completly-read">COMPLETLY READ</a></li>
+              <li><a href="#book-genre">BOOK GENRE</a></li>
+            <ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--/.Navbar-->
   </section>
   
     <section></section>
@@ -80,8 +100,8 @@
         <div class="col-sm-12 col-md-12 main">
           <h3>Dashboard</h3>
             <div class="row">
-              <div class="col-sm-6 col-md-6" id="year">
-                <div class="title">YEAR OF PURCHASE</div>
+              <div class="col-sm-6 col-md-6" id="year-of-purchace">
+                <div class="title">YEAR OF PURCHACE</div>
                 <p class="about">I am collecting books since I was little. I selected books which I bought for the last six years only. 
                 This graph shows that I am a good reader for the past few years but in 2018 I red the biggest amount of books.
                 </p>
@@ -97,14 +117,14 @@
             </div>
             
             <div class="row"> 
-              <div class="col-sm-6 col-md-6" id="spend">
+              <div class="col-sm-6 col-md-6" id="book-price">
                 <div class="title">BOOK PRICE</div>
                 <p class="about">On this chart we can see how much I spend buying books online comparing to the store, broken down by type of language.
                  Obviously there is zero spend in library - because we always bring them back.</p>
                 <div id="spend-balance"></div>
               </div>
               
-              <div class="col-sm-6 col-md-6" id="type">
+              <div class="col-sm-6 col-md-6" id="book-genre">
                 <div class="title">BOOK GENRE</div>
                 <p class="about">I am big fan of fittness and healthy lifestyle. Thats why I read about it the most. 
                 As you can see there are diffrent type of books I am enjoying reading as well.</p>
@@ -113,7 +133,7 @@
             </div>
             
             <div class="row">
-              <div class="col-sm-6 col-md-6" id="readed">
+              <div class="col-sm-6 col-md-6" id="completly-read">
                 <div class="title">COMPLETLY READ</div>
                 <p class="about">I think I am doing well. I already red larger amount of books from my library. 
                 But there is a part which still waiting for me. Maybe I should stop to purchase new ones until I read what I already have. 
@@ -121,7 +141,7 @@
                 <div id="readed-balance"></div>
               </div>
               
-              <div class="col-sm-6 col-md-6" id="place">
+              <div class="col-sm-6 col-md-6" id="book-source">
                 <div class="title">BOOK SOURCE</div>
                 <p class="about">Where I get my books from?
                 <ul>
@@ -135,7 +155,7 @@
             </div>
             
             <div class="row">
-              <div class="col-sm-12 col-md-12 border id="Author">
+              <div class="col-sm-12 col-md-12 border id="author">
                 <div class="title">AUTHOR</div>
                 <p class="about">As you saw before my library consists books written mostly in English. 
                 However polish writer Katarzyna Grochola is still my favourite!</p>
@@ -181,7 +201,9 @@
     </div>
   </footer>
   
-  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>   
                                                         

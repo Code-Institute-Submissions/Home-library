@@ -107,7 +107,7 @@ function show_author(ndx){
     var group = dim.group();
     
     dc.barChart("#author-balance")
-        .width(2200)
+        .width(2300)
         .height(500)
         .margins({top:10, right:70, bottom:30, left: 70})
         .dimension(dim)
@@ -141,8 +141,8 @@ function show_spend(ndx){
         var stackedChart = dc.barChart("#spend-balance");
         
         stackedChart
-            .width(500)
-            .height(500)
+            .width(400)
+            .height(600)
             .dimension(place_dim)
             .group(spendByPlaceLanguagePolish, "polish")
             .stack(spendByPlaceLanguageEnglish, "english")
