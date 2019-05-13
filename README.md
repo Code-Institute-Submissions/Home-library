@@ -21,11 +21,11 @@ At the end of this page there is possibility to contact me. This is to encourage
 
 ##### Wireframes for mobile:
 
-![Wireframes for mobile](assets/mobile.jpg)
+![Wireframes for mobile](photos/mobile.jpg)
 
 ##### Wireframes for desktop:
 
-![Wireframes for desktop](assets/desktop.jpg)
+![Wireframes for desktop](photos/desktop.jpg)
 
 ### Features
 
@@ -58,6 +58,7 @@ When hoover over - the color of the links is changing. For smaller devices the n
 1. **Bootstrap**: https://getbootstrap.com/docs/3.3/ bootstrap 3.3.7 used for responsive navbar, grid layout
 1. of the page;
 1. **JQuery**: added to assist bootstrap;
+1. **Bootswatch**: https://bootswatch.com/3/ for "back to top" button; 
 1. **D3**: javascript library for manipulating documents based on data. To help bring data to life;
 2. **DC**: javascript library (chart library) which provides prebuilt charts types for D3;
 1. **Crossfilter**: javascript library which allows to work with data to make the chart rendered by DC interactive;
@@ -81,6 +82,9 @@ My mentor recommended me to insert horizontal scroll bar;
 ....
 
 ### Deployment 
+
+I deploy my project by going to GitHub, navigate to my github pages site's repository. Under my repository name I clicked Settings. Then I used the Select
+drop-down menu to select master branch and then save it. Now my project is deployed to github pages and accessible to anyone via URL.
 
 Link to my deployment version:  https://atena123.github.io/Home-library/
 

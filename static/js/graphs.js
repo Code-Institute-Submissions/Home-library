@@ -65,7 +65,7 @@ function show_readed(ndx){
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(false)
-        .xAxisLabel("completly read or not")
+        .xAxisLabel("completely read or not")
         .yAxisLabel("books")
         .yAxis().ticks(10)
 }
@@ -94,8 +94,10 @@ function show_type(ndx){
     var group = dim.group();
     
     dc.pieChart("#type-balance")
+        .width(450)
         .height(500)
-        .radius(300)
+        .radius(150)
+        .cx(250)
         .transitionDuration(500)
         .dimension(dim)
         .group(group)

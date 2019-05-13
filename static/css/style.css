@@ -88,6 +88,7 @@ blockquote p {
 .about {
     font-size: 20px;
     padding: 20px 30px;
+    text-align: center;
 }
 
 ul li {
@@ -99,14 +100,7 @@ ul li {
 }
 
 .scroll-bar {
-     white-space: nowrap;
-     overflow-x: visible;
-     overflow-y: hidden;
-     width: 1600px;
-}
-
-svg g { 
-    transform: translate(250px 250px);
+     overflow-x: scroll;
 }
 
 
@@ -131,6 +125,10 @@ footer {
     text-align: center;
 }
 
+.btn {
+    margin-top: 10px;
+}
+
 .button {
     text-align: right;
 }
@@ -153,21 +151,6 @@ footer {
 
 /*----------------------Media Queries*/
 
-@media screen and (max-width: 767px) {
-    blockquote p {
-        font-size: 30px;
-        color: #F08080;
-    }
-    .description {
-        padding: 15px 70px;
-        font-size: 17px;
-    }
-    .scroll-bar {
-        width: 20px;
-    }
-   
-}
-
 @media screen and (max-width: 991px) {
     .navigation li a {
         padding: 25px 35px;
@@ -175,8 +158,20 @@ footer {
     .description {
         padding: 20px 95px;
     }
-    .scroll-bar {
-        width: 750px;
-    }
     
 }
+
+@media screen and (max-width: 767px) {
+    blockquote p {
+        font-size: 30px;
+        color: #F08080;
+    }
+    .description {
+        padding: 15px 10px;
+        font-size: 17px;
+    }
+    
+   
+}
+
+
