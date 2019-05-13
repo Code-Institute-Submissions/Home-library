@@ -19,9 +19,13 @@ I am obssesive book collector from a young age. I have so many lovely different 
 The number of books in our homes are very important. In fact, the number of books that are in the home has a direct impact on literacy and education.
 At the end of this page there is possibility to contact me. This is to encourage book lovers and also my website visitors to get in touch with me by filling the form.</p>
 
-![Wireframes for mobile](../../assets/mobile.jpg)
+##### Wireframes for mobile:
 
-![Wireframes for desktop](../../assets/desktop.jpg)
+![Wireframes for mobile](assets/mobile.jpg)
+
+##### Wireframes for desktop:
+
+![Wireframes for desktop](assets/desktop.jpg)
 
 ### Features
 
