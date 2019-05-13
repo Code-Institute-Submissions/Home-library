@@ -17,17 +17,17 @@
 <p>The purpose of this website is to showcase my home library. It provides users with general information about my collection. I am huge fun of reading books. 
 I am obssesive book collector from a young age. I have so many lovely different ones so I selected 110 books only which I purchased for the past 6 years. 
 The number of books in our homes are very important. In fact, the number of books that are in the home has a direct impact on literacy and education.
-At the end of this page there is possibility to contact me. Tis is to encourage book lovers and also my website visitors to get in touch with me by filling the form.</p>
+At the end of this page there is possibility to contact me. This is to encourage book lovers and also my website visitors to get in touch with me by filling the form.</p>
 
-![Wireframes for mobile](../assets/mobile.jpg)
+![Wireframes for mobile](../../assets/mobile.jpg)
 
-![Wireframes for desktop](../assets/desktop.jpg)
+![Wireframes for desktop](../../assets/desktop.jpg)
 
 ### Features
 
 ##### Existing features:
 
-* **Navbar** - is created to navigate to particular chart on the page. Across the navbar there are link with titles of the charts.
+* **Navbar** - is created to navigate to particular chart on the page. Across the navbar there are links with titles of the charts.
 When hoover over - the color of the links is changing. For smaller devices the navbar collapse into *burder icon*.
 
 * **Charts** - are created to provide general information about my home library. 
@@ -67,10 +67,10 @@ This website had been tested on different devices such as: Desktop, Tablet, Mobi
 
 #### Throubleshooting
 
-1. Navbar: at first I wanted to use bootstrap grid to make it responsive, but I found it difficult to put seven
+1. *Navbar*: at first I wanted to use bootstrap grid to make it responsive, but I found it difficult to put seven
 titles into 12 columns in one row. Thats why I did that differently with burger icon for mobile devices for better responsivnes;
-1. Chart: chart called "Author" gave me lots of trouble to make it responsive especially on mobile devices
-My mentor recommended me to insert horizontal scroll bar.
+1. *Chart*: chart called "Author" gave me lots of trouble to make it responsive especially on mobile devices;
+My mentor recommended me to insert horizontal scroll bar;
 
 #### To be fixed
 
