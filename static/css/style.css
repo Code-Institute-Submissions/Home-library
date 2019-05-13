@@ -14,6 +14,10 @@
     position: relative;
 }
 
+blockquote {
+    border: none;
+}
+
 blockquote p {
     font-size: 35px;
     color: #fff;
@@ -46,47 +50,63 @@ blockquote p {
 
 /*-----------------------Menu*/
 
-.navigation li a {
-    padding: 40px 50px;
+.navbar-default .navbar-nav>li>a {
+    color:  #fff;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+    color:  #676767;
+     transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+}
+    
+.bg-color-navbar {
+    background-color: #18bc9c;
+}
+
+.navigation li a {
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-bottom: 30px;
+    
+}
 
 
 
 /*------------------------Main*/
 
-.main {
-    min-height: 2500px;
-}
-
-h3 {
-    padding-left: 50px;
-    padding-top: 60px;
-    padding-bottom: 45px;
-    margin: 0;
-}
 
 .title {
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 35px;
+    padding: 30px;
     text-align: center;
+    color: #18bc9c;
 }
 
 .about {
-    font-size: 22px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding: 20px 30px;
 }
 
 ul li {
-    font-size: 22px;
+    font-size: 20px;
 }
 
-.border {
+.graph {
+    padding: 50px;
+}
+
+.scroll-bar {
      white-space: nowrap;
      overflow-x: visible;
      overflow-y: hidden;
      width: 1600px;
+}
 
+svg g { 
+    transform: translate(250px 250px);
 }
 
 
@@ -102,7 +122,6 @@ footer {
 
 .row-footer {
     width: 100%;
-    
 }
 
 .contact {
@@ -131,6 +150,7 @@ footer {
     padding-left: 30px;
 }
 
+
 /*----------------------Media Queries*/
 
 @media screen and (max-width: 767px) {
@@ -138,4 +158,25 @@ footer {
         font-size: 30px;
         color: #F08080;
     }
+    .description {
+        padding: 15px 70px;
+        font-size: 17px;
+    }
+    .scroll-bar {
+        width: 20px;
+    }
+   
+}
+
+@media screen and (max-width: 991px) {
+    .navigation li a {
+        padding: 25px 35px;
+    }
+    .description {
+        padding: 20px 95px;
+    }
+    .scroll-bar {
+        width: 750px;
+    }
+    
 }
