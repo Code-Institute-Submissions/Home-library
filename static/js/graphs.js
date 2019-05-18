@@ -47,7 +47,7 @@ function show_language(ndx){
         .xUnits(dc.units.ordinal)
         .elasticY(false)
         .xAxisLabel("language")
-        .yAxisLabel("books")
+        .yAxisLabel("number of books")
         .yAxis().ticks(10)
 }
 
@@ -66,7 +66,7 @@ function show_readed(ndx){
         .xUnits(dc.units.ordinal)
         .elasticY(false)
         .xAxisLabel("completely read or not")
-        .yAxisLabel("books")
+        .yAxisLabel("number of books")
         .yAxis().ticks(10)
 }
 
@@ -85,7 +85,7 @@ function show_place(ndx){
         .xUnits(dc.units.ordinal)
         .elasticY(false)
         .xAxisLabel("source")
-        .yAxisLabel("books")
+        .yAxisLabel("number of books")
         .yAxis().ticks(10)
 }
 
@@ -119,7 +119,7 @@ function show_author(ndx){
         .xUnits(dc.units.ordinal)
         .elasticY(true)
         .xAxisLabel("Author")
-        .yAxisLabel("Books")
+        .yAxisLabel("number of books")
         .yAxis().ticks(10);
 }
 
@@ -152,7 +152,7 @@ function show_spend(ndx){
             .xUnits(dc.units.ordinal)
             .xAxisLabel("source")
             .yAxisLabel("euro")
-            .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
+            .legend(dc.legend().x(400).y(0).itemHeight(15).gap(4));
         stackedChart.margins().right = 100;
 
 }

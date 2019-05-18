@@ -1,4 +1,4 @@
-# Milestone Project 2 - Books
+# Milestone Project 2 - Home - library
 
 <p>This project is about my home library collection. While most spaces in a home are meant for everyday routines, there's something special about a library that's strictly reserved for relaxation. 
  
@@ -63,6 +63,7 @@ When hoover over - the color of the links is changing. For smaller devices the n
 2. **DC**: javascript library (chart library) which provides prebuilt charts types for D3;
 1. **Crossfilter**: javascript library which allows to work with data to make the chart rendered by DC interactive;
 1. **Queue**: javascript library which allows to defer (books.json) calling a function untill the data is ready;
+1. **EmailJS**: to allow user to contact with me; 
 1. **Git**: used command line for regular commits and also to push my project to github;
 1. **GitHub**: used to allow public to see my website; 
 
@@ -79,7 +80,9 @@ My mentor recommended me to insert horizontal scroll bar;
 
 #### To be fixed
 
-....
+1. *Responsivness*: the website was tested on different devices and the responsivness was perfect until I add my charts at the end to my main section.
+   When testing on mobile - I am not sure what cause the white vertical space on the right (I need to double click on the page to adjust the page to the type of device);
+1. *EmailJS*: it does not work properly (I could get an email but without the message);
 
 ### Deployment 
 

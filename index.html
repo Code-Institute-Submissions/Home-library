@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Books</title>
+    <title>Home-library</title>
     
     <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
     <link rel="stylesheet" href="static/css/style.css" type="text/css" />
     
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 
-  <script src="static/js/graphs.js"></script>
-  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-  <script type="text/javascript">
-   (function(){
-      emailjs.init("user_Vx80lAcpddwQ51KMUlRAk");
-      emailjs.send("gmail", "template_uNsZhF8L", {name: "Aneta", notes: "Hi"});
-   })();
-</script>
+    <script src="static/js/graphs.js"></script>
+   
+   <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("user_Vx80lAcpddwQ51KMUlRAk");
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                this.contact_number.value = Math.random() * 100000 | 0;
+                emailjs.sendForm('gmail', 'aneta', this);
+            });
+        }
+    </script>
 
     
 </head>
@@ -101,74 +110,74 @@
   
   <section>
   <!--MAIN-->
-        <div class="row">
-          <div class="col-sm-6 col-md-6 graph" id="year-of-purchace">
-            <div class="title"><strong>YEAR OF PURCHACE</strong></div>
-              <p class="about">I am collecting books since I was little. I selected books which I bought for the last six years only. 
-                This graph shows that I am a good reader for the past few years but in 2018 I red the biggest amount of books.
-              </p>
-              <div id="year-balance"></div>
-          </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-6 graph" id="year-of-purchace">
+        <div class="title"><strong>YEAR OF PURCHACE</strong></div>
+          <p class="about">I am collecting books since I was little. I selected books which I bought for the last six years only. 
+            This graph shows that I am a good reader for the past few years but in 2018 I red the biggest amount of books.
+          </p>
+        <div id="year-balance"></div>
+      </div>
 
-          <div class="col-sm-6 col-md-6 graph" id="language">
-            <div class="title"><strong>LANGUAGES</strong></div>
-              <p class="about">I speak in two languages. Even though polish is my mother tongue I have much larger amount of books in English. 
-                I think its good to read a lot of books in language you are learning.
-              </p>
-              <div id="language-balance"></div>
-          </div>
-        </div>
+      <div class="col-sm-6 col-md-6 graph" id="language">
+        <div class="title"><strong>LANGUAGES</strong></div>
+          <p class="about">I speak in two languages. Even though polish is my mother tongue I have much larger amount of books in English. 
+            I think its good to read a lot of books in language you are learning.
+          </p>
+          <div id="language-balance"></div>
+      </div>
+    </div>
             
-        <div class="row"> 
-          <div class="col-sm-6 col-md-6 graph" id="book-price">
-            <div class="title"><strong>BOOK PRICE</strong></div>
-              <p class="about">On this chart we can see how much I spend buying books online comparing to the store, broken down by type of language.
-                Obviously there is zero spend in library - because we always bring them back.
-              </p>
-              <div id="spend-balance"></div>
-          </div>
+    <div class="row"> 
+      <div class="col-sm-6 col-md-6 graph" id="book-price">
+        <div class="title"><strong>BOOK PRICE</strong></div>
+          <p class="about">On this chart we can see how much I spend buying books online comparing to the store, broken down by type of language.
+            Obviously there is zero spend in library - because we always bring them back.
+          </p>
+          <div id="spend-balance"></div>
+      </div>
               
-          <div class="col-sm-6 col-md-6 graph" id="book-genre">
-            <div class="title"><strong>BOOK GENRE</strong></div>
-              <p class="about">I am big fan of fittness and healthy lifestyle. Thats why I read about it the most. 
-                As you can see there are diffrent type of books I am enjoying reading as well.
-              </p>
-              <div id="type-balance"></div>
-            </div>
+      <div class="col-sm-6 col-md-6 graph" id="book-genre">
+        <div class="title"><strong>BOOK GENRE</strong></div>
+          <p class="about">I am big fan of fittness and healthy lifestyle. Thats why I read about it the most. 
+            As you can see there are diffrent type of books I am enjoying reading as well.
+          </p>
+          <div id="type-balance"></div>
           </div>
+      </div>
             
-        <div class="row">
-          <div class="col-sm-6 col-md-6 graph" id="completely-read">
-            <div class="title"><strong>COMPLETELY READ</strong></div>
-              <p class="about">I think I am doing well. I already red larger amount of books from my library. 
-                But there is a part which still waiting for me. Maybe I should stop to purchase new ones until I read what I already have. 
-                What do you think?
-              </p>
-              <div id="readed-balance"></div>
-          </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-6 graph" id="completely-read">
+        <div class="title"><strong>COMPLETELY READ</strong></div>
+          <p class="about">I think I am doing well. I already red larger amount of books from my library. 
+            But there is a part which still waiting for me. Maybe I should stop to purchase new ones until I read what I already have. 
+            What do you think?
+          </p>
+          <div id="readed-balance"></div>
+      </div>
               
-          <div class="col-sm-6 col-md-6 graph" id="book-source">
-            <div class="title"><strong>BOOK SOURCE</strong></div>
-              <p class="about">Where I get my books from?
-                <ul>
-                  <li>Store - not that often but every time I am there I always find intresting book to buy.</li>
-                  <li>Online - thats the way I usually get them. I think its fast, easy and convinient.</li>
-                  <li>Library - but only a few. I prefer to keep my books as my own.</li>
-                </ul>
-              </p>
-              <div id="place-balance"></div>
-          </div>
-        </div>
+      <div class="col-sm-6 col-md-6 graph" id="book-source">
+        <div class="title"><strong>BOOK SOURCE</strong></div>
+          <p class="about">Where I get my books from?
+            <ul>
+              <li>Store - not that often but every time I am there I always find intresting book to buy.</li>
+              <li>Online - thats the way I usually get them. I think its fast, easy and convinient.</li>
+              <li>Library - but only a few. I prefer to keep my books as my own.</li>
+            </ul>
+          </p>
+          <div id="place-balance"></div>
+      </div>
+    </div>
             
-        <div class="row">
-          <div class="col-sm-12 col-md-12 graph scroll-bar" id="author">
-            <div class="title"><strong>AUTHOR</strong></div>
-              <p class="about">As you saw before my library consists books written mostly in English. 
-                However polish writer Katarzyna Grochola is still my favourite!
-              </p>
-              <div id="author-balance"></div>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 graph scroll-bar" id="author">
+        <div class="title"><strong>AUTHOR</strong></div>
+          <p class="about">As you saw before my library consists books written mostly in English. 
+            However polish writer Katarzyna Grochola is still my favourite!
+          </p>
+          <div id="author-balance"></div>
+      </div>
+    </div>
   <!--/MAIN-->
   </section>
   
@@ -184,12 +193,12 @@
         <div class="center-form">
           <form>
             <label>Name:</label>
-            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/><br>
+            <input type="text" name="user_name" class="form-control" id="fullname" placeholder="Name" required/><br>
             <label>E-mail:</label>
-            <input type="email" name="email-address" class="form-control" id="emailaddress" placeholder="Email" required/><br>
+            <input type="email" name="user_email" class="form-control" id="emailaddress" placeholder="Email" required/><br>
             <label>Message:</label>
-            <textarea rows="5" name="message" class="form-control" id="message" placeholder="Write your message" required></textarea>
-            <button type="submit" class="btn btn-success btn-lg center-block btn">Send Message</button>
+            <textarea rows="5" name="contact" class="form-control" id="message" placeholder="Write your message (optional)" required></textarea><br>
+            <button type="submit" class="btn btn-success btn-lg center-block">Send Message</button>
           </form>
         </div> 
       </div>
